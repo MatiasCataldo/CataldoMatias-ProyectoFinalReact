@@ -1,0 +1,35 @@
+  img{
+    float: left;
+    margin: 5px;
+    height: 40px;
+    width: 40px;
+    background-color: #ece923;
+    border-radius: 50px;
+  }
+
+  nav{
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+    background-color: #10b9f136;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li:hover {
+    background: #ece923;
+  }
