@@ -1,0 +1,14 @@
+.cart{
+    background-color: gold;
+}
+
+.card-error {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #f00;
+    border-radius: 8px;
+    background-color: #fee;
+    color: #f00;
+    margin: 20px auto;
+    max-width: 400px;
+}

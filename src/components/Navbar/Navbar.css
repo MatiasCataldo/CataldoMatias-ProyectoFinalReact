@@ -12,9 +12,8 @@ nav {
 }
 
 nav ul {
-  list-style: none;
-  overflow: hidden;
-  background-color: #10b9f136;
+  list-style: none !important;
+  overflow: hidden !important;
 }
 
 nav ul li {

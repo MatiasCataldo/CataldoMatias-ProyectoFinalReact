@@ -1,0 +1,10 @@
+#fotoCard{
+    height: 270px !important;
+}
+
+
+@media (max-width: 700px) {
+    #cards {
+        flex-basis: max-content !important;
+    }
+  }

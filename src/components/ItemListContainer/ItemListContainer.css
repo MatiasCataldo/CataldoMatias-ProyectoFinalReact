@@ -1,0 +1,27 @@
+.card-body{
+    margin: 15px;
+}
+
+#cards{
+    margin: 5px;
+    display: flex;
+    margin-left: inherit;
+    margin-inline: auto;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: none; 
+    margin-left: none; 
+}
+
+
+@media (max-width: 700px) {
+    #cards {
+      flex-wrap: nowrap !important;
+    }
+  }
