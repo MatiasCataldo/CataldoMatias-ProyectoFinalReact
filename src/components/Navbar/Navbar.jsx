@@ -9,7 +9,7 @@ const Navbar = () => {
             <Link to='/'>
                 <img src={foto} className='logo' />
             </Link>
-            <NavLink to='/' className="navbar-brand" href="">Strong Suplementos</NavLink>
+            <NavLink to='/' className="navbar-brand" id='title'>Strong Suplementos</NavLink>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span className="navbar-toggler-icon"></span>
             </button>
@@ -22,10 +22,10 @@ const Navbar = () => {
                         <NavLink to='/category/Creatina'>Creatinas</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink NavLink to='/category/Bcaa'>BCAAs</NavLink>
+                        <NavLink to='/category/Bcaa'>BCAAs</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink NavLink to='/category/Pre'>Pre Entreno</NavLink>
+                        <NavLink to='/category/Pre'>Pre Entreno</NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink to='/category/Accesorios'>Accesorios</NavLink>

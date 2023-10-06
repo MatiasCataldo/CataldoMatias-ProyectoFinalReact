@@ -3,6 +3,19 @@ button{
     margin: 5px;
 }
 
-.contador{
+.counter{
     display: inline-flex;
+    align-items: center;
+}
+
+#botonADD{
+    width: 200px !important;
+    margin: 10px;
+    align-items: center;
+}
+
+.btn{
+    margin: 2px;
+    height: 40px;
+    align-items: center;
 }

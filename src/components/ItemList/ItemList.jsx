@@ -4,7 +4,7 @@ import Item from "../Item/Item"
 import './ItemList.css'
 
 const handleProductFilter = ({ products, filterState, handleFilterChange }) => (
-  <div className="cuerpo">  
+  <div className="body">  
     <center>
       <h2>Buscador</h2>
       <input type="text" value={filterState} onChange={handleFilterChange} />
@@ -19,13 +19,13 @@ const handleProductFilter = ({ products, filterState, handleFilterChange }) => (
 )
 
 const ItemList = ({products}) => {
-return (            
-  <>
-      <Filter products={products}>
-          {handleProductFilter}
-      </Filter>
-  </>
-)
+  return (            
+    <>
+        <Filter products={products}>
+            {handleProductFilter}
+        </Filter>
+    </>
+  )
 }
 
 export default ItemList

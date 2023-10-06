@@ -32,6 +32,7 @@ nav ul li a {
 
 nav ul li:hover {
   background: #ece923;
+  transform: scale(1.1);
 }
 
 img {
@@ -44,4 +45,8 @@ img {
 strong{
   float: right;
   text-align: right;
+}
+
+#title:hover{
+  text-shadow: 0 0 10px rgb(255, 255, 255);
 }

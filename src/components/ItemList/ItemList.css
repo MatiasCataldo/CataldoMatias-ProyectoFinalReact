@@ -2,10 +2,11 @@ center{
     width: inherit;
 }
 
-.cuerpo{
+.body{
     display: contents;
+    background-color: blue;
 }
 
-.cuerpo center{
+.body center{
     margin: 10px;
 }

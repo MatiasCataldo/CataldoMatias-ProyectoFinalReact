@@ -28,7 +28,6 @@ function Footer() {
           <p className="copyright" id='copyright'>Strong Suplementos© - 2023</p>
       </footer>
   </div>
-
   )
 }
 
