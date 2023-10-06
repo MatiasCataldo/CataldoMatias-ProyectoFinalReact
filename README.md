@@ -1,20 +1,20 @@
 Deploy: "https://strongsuplementos.netlify.app"
 
 Librerías externas usadas con las versiones:
-  "@fortawesome/fontawesome-svg-core": "^6.4.2",
-  "@fortawesome/free-regular-svg-icons": "^6.4.2",
-  "@fortawesome/free-solid-svg-icons": "^6.4.2",
-  "@fortawesome/react-fontawesome": "^0.2.0",
-  "bootstrap": "^5.3.1",
-  "firebase": "^10.4.0",
-  "font-awesome": "^4.7.0",
-  "react": "^18.2.0",
-  "react-bootstrap": "^2.8.0",
-  "react-dom": "^18.2.0",
-  "react-router-dom": "^6.15.0",
-  "react-toastify": "^9.1.3",
-  "sweetalert2": "^11.7.31",
-  "sweetalert2-react-content": "^5.0.7"
+  -"@fortawesome/fontawesome-svg-core": "^6.4.2",
+  -"@fortawesome/free-regular-svg-icons": "^6.4.2",
+  -"@fortawesome/free-solid-svg-icons": "^6.4.2",
+  -"@fortawesome/react-fontawesome": "^0.2.0",
+  -"bootstrap": "^5.3.1",
+  -"firebase": "^10.4.0",
+  -"font-awesome": "^4.7.0",
+  -"react": "^18.2.0",
+  -"react-bootstrap": "^2.8.0",
+  -"react-dom": "^18.2.0",
+  -"react-router-dom": "^6.15.0",
+  -"react-toastify": "^9.1.3",
+  -"sweetalert2": "^11.7.31",
+  -"sweetalert2-react-content": "^5.0.7"
 
 Funcionalidades
   
