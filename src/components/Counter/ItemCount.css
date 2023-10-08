@@ -8,6 +8,12 @@ button{
     align-items: center;
 }
 
+.btns{
+    text-align: center;
+    display: inline-flex;
+
+}
+
 #botonADD{
     width: 200px !important;
     margin: 10px;
@@ -18,4 +24,8 @@ button{
     margin: 2px;
     height: 40px;
     align-items: center;
+}
+
+.noStock{
+    color: red;
 }

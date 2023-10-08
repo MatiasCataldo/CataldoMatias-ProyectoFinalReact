@@ -25,7 +25,7 @@ const ItemDetail = ({product}) => {
                 <img className="card-img-top" src={product.imageUrl} alt="Card image cap"/>
                 <div className="card-body">
                     <h5 className="card-title">{product.name}</h5>
-                    <p className="price">Precio: ${product.price}</p>
+                    <p className="price">Precio: ${Number(product.price).toLocaleString()}</p>
                     <p className="card-text">{product.description}</p>
                     <ItemCount initial={1} stock={product.stock} onAdd={onAdd} />
                     
@@ -33,6 +33,5 @@ const ItemDetail = ({product}) => {
             </div>
     )
 }
-
 
 export default ItemDetail

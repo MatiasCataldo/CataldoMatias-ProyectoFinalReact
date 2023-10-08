@@ -19,7 +19,6 @@
     margin-left: none; 
 }
 
-
 @media (max-width: 700px) {
     #cards {
         flex-wrap: nowrap !important;

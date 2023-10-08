@@ -26,7 +26,7 @@ const CartContextProvider = ({ children }) => {
         setCartList([]);
     };
 
-    const finalizarCompra = () => {
+    const checkout = () => {
         clearCart();
         Swal.fire({
             title: 'Compra Realizada con Éxito',
@@ -41,7 +41,7 @@ const CartContextProvider = ({ children }) => {
             addProduct, 
             removeFromCart, 
             clearCart,
-            finalizarCompra
+            checkout
             }}>
             {children}
         </CartContext.Provider>
